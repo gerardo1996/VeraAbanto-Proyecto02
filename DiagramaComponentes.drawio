@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
+  <diagram name="Página-1" id="mBjLL9JOK3yynieqz5hZ">
+    <mxGraphModel dx="1489" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-3" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Interfaz Transacción&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-4" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="hIWN6UfP_7JWPp-BMqmd-3">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-5" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Servicio de autentificación&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-6" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="hIWN6UfP_7JWPp-BMqmd-5">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="hIWN6UfP_7JWPp-BMqmd-10" parent="1" source="hIWN6UfP_7JWPp-BMqmd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="hIWN6UfP_7JWPp-BMqmd-10" parent="1" source="hIWN6UfP_7JWPp-BMqmd-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-10" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-11" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Servicio de transacciones&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-12" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="hIWN6UfP_7JWPp-BMqmd-11">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-22" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="hIWN6UfP_7JWPp-BMqmd-24" parent="1" source="hIWN6UfP_7JWPp-BMqmd-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-23" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="hIWN6UfP_7JWPp-BMqmd-24" parent="1" source="hIWN6UfP_7JWPp-BMqmd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-24" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="200" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-27" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Servicio de cuentas&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="360" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-28" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="hIWN6UfP_7JWPp-BMqmd-27">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-29" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.606;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.558;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hIWN6UfP_7JWPp-BMqmd-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="250" as="sourcePoint" />
+            <mxPoint x="861" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-32" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Base de datos Transacciones&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-33" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="hIWN6UfP_7JWPp-BMqmd-32">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-34" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.54;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hIWN6UfP_7JWPp-BMqmd-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="250" as="sourcePoint" />
+            <mxPoint x="1120" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-35" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Base de datos cuentas&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="520" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-36" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="hIWN6UfP_7JWPp-BMqmd-35">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIWN6UfP_7JWPp-BMqmd-37" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.578;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.582;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hIWN6UfP_7JWPp-BMqmd-27" target="hIWN6UfP_7JWPp-BMqmd-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="260" as="sourcePoint" />
+            <mxPoint x="1120" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
